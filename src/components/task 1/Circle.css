@@ -1,0 +1,40 @@
+ #container {
+    display:flex;
+    justify-content: center;
+    gap: 8rem;
+ }
+ .content { 
+    max-width: 50%;
+ }
+ .circle{
+    height:10vh;
+    width:10vh;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    transform: translate(-50%,-50%);
+ }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
+  }
+  
+  #counter {
+    position: relative;
+    left:42%;
+    top: 33%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
+  
+  #color {
+    position: relative;
+    left: 8%;
+    font-size: 0.7rem;
+    top: 55%;
+    color: black;
+  }
+  

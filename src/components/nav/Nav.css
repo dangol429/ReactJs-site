@@ -1,0 +1,10 @@
+nav {
+    background: var(--color-bg);
+    height: 5rem;
+    display: fixed;
+}
+nav a {
+    padding: 1rem;
+    font-size: 2rem;
+    float:left;
+}
