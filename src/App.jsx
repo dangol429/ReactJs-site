@@ -5,7 +5,7 @@ import Circle from './components/task 1/Circle'
 const App = () => {
   return (
     <>
-        <Nav/>
+        <Nav task1='active'/>
         <Circle/>
     </>
   )
