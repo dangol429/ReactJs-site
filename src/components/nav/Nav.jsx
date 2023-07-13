@@ -7,7 +7,7 @@ const Nav = (props) => {
   return (
           <nav>
                 <Link className = {props.task1} to='/task1'>Task 1</Link>
-                <Link className = {props.task1} to='/task2'>Task 2</Link>
+                <Link className = {props.task2} to='/task2'>Task 2</Link>
                 <Link className = {props.task3} to='/task3'>Task 3</Link>
 
           </nav>
