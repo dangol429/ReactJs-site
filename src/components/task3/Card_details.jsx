@@ -1,8 +1,10 @@
 import React from 'react';
 import Nav from '../nav/Nav';
 import './card_details.css'
+/*  importing location library in order to get the data from task2 */
 import { useLocation } from 'react-router-dom';
 
+/*  Declaring the function to get card details.*/
 const Card_details = () => {
   const location = useLocation();
   const params = new URLSearchParams(location.search);
