@@ -11,7 +11,8 @@ import {
     createBrowserRouter,
     RouterProvider,
   } from "react-router-dom";
-  
+
+/* Creating a router for making react multipages */
   const router = createBrowserRouter([
     {
       path: "/",
@@ -30,7 +31,7 @@ import {
         element: <Card_details/>,
       },
   ]);
-
+/* Creating a redux store for storing the data between pages and transfering them */
   const store = configureStore({
     reducer: {
       circle: circleReducer,
