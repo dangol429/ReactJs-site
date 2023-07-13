@@ -3,6 +3,7 @@ import './Nav.css'
 import { Link } from 'react-router-dom'
 
 const Nav = () => {
+  /* Creating a simple navigation bar has 3 options each one linked using routing */
   return (
           <nav>
                 <Link to='/task1'>Task 1</Link>
