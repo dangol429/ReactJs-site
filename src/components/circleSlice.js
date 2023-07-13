@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-
+/*  Creating a redux toolkit and setting the data for numberofcircles which will later be extracted during the nuber of cards*/
 const circleSlice = createSlice({
   name: 'circle',
   initialState: {
