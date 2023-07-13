@@ -14,7 +14,7 @@ const Card_details = () => {
 
   return (
     <>
-      <Nav />
+      <Nav task3='active' />
       <section className='container'>
         <article className='card-content'>
           <h1>Card Details</h1>
