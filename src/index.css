@@ -112,6 +112,9 @@ img{
   width: 100%;
   object-fit:cover;
 }
+.active{
+  color: var(--color-white);
+}
 
 /* =================== MEDIA QUERIES (MEDIUM DEVICES) ===== */
 
