@@ -28,7 +28,7 @@ const Circle = () => {
       ]);
     }
   };
-
+/* Here I have not mentioned the name of the color but instead used the 6 digit hex value for the color. It would be too large of a dataset. */
   const generateRandomColor = () => {
     const letters = '0123456789ABCDEF';
     let color = '#';
