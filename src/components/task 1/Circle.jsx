@@ -38,10 +38,6 @@ const Circle = () => {
     return color;
   };
 
-  const incrementCircles = () => {
-    dispatch(setNumberOfCircles(numberOfCircles + 1));
-  };
-
   return (
     <section id='container'>
       {circles.map((circle) => (
