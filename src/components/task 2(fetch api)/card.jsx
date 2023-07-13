@@ -7,7 +7,9 @@ import { Link } from 'react-router-dom';
 const Card = () => {
   const [users, setUsers] = useState([]);
   const numberOfCircles = useSelector((state) => state.circle.numberOfCircles) || 1;
-
+  
+/* Fetching from the api's and fitted it in an array */
+  
   useEffect(() => {
     fetch(`https://random-data-api.com/api/v2/users?size=${numberOfCircles}`)
       .then((response) => response.json())
@@ -19,6 +21,8 @@ const Card = () => {
         console.error('Error fetching data:', error);
       });
   }, [numberOfCircles]);
+
+  /* Function to pass the details about the card from task2 to task3 so using an event */
   
   const handleCardClick = (event, user) => {
   const { id, first_name, last_name, avatar } = user;
@@ -32,7 +36,7 @@ const Card = () => {
 
   return (
     <>
-      <Nav />
+      <Nav task2='active' />
       <section className='card-grid'>
         {users.map((user) => (
           <div className='card' key={user.id}>
